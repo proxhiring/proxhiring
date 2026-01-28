@@ -20,11 +20,17 @@
       background: white;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
+      gap: 30px;
       padding: 15px 40px;
       box-shadow: 0 2px 6px rgba(0,0,0,.08);
     }
-    header img { height: 50px; }
+    header img {
+      height: 70px;
+      max-width: 180px;
+      display: block;
+      object-fit: contain;
+    }
     nav a {
       margin-left: 20px;
       text-decoration: none;
@@ -92,8 +98,14 @@
 <body>
 
 <header>
-  <img src="logo.png" alt="ProX Hiring Logo" />
-  <nav>
+  <div style="display:flex; align-items:center; gap:15px;">
+    <img src="logo.png" alt="ProX Hiring Logo" />
+    <div style="line-height:1.2;">
+      <strong style="font-size:22px; color:var(--blue);">ProX Hiring</strong><br/>
+      <span style="font-size:13px; color:#666;">Manpower & Recruitment Consultancy</span>
+    </div>
+  </div>
+  <nav style="margin-left:auto;">
     <a href="#">Home</a>
     <a href="#about">About</a>
     <a href="#services">Services</a>
@@ -132,8 +144,9 @@
 </section>
 
 <section id="contact">
+  <p style="font-weight:bold;">📞 Mobile: 9594959465 &nbsp;&nbsp;|&nbsp;&nbsp; 📍 Location: Mumbai, India</p>
   <h2>Contact Us</h2>
-  <form action="https://formspree.io/f/xojdoneb" method="POST">
+  <form action="https://formspree.io/f/xxxxxx" method="POST">
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="email" name="email" placeholder="Your Email" required />
     <textarea name="message" placeholder="Your Requirement" required></textarea>
@@ -143,10 +156,12 @@
 
 <section id="careers">
   <h2>Careers / Submit Resume</h2>
-  <p>Email your resume to <strong>info.proxhiring@gmail.com</strong></p>
+  <p>Email your resume to <strong>careers@proxhiring.com</strong></p>
 </section>
 
 <footer>
+  <p><strong>ProX Hiring</strong></p>
+  <p>📞 9594959465 | 📍 Mumbai, India</p>
   <p>© 2026 <span>ProX Hiring</span>. All Rights Reserved.</p>
 </footer>
 
