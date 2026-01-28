@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProX Hiring | Manpower & Recruitment Consultancy</title>
+
+  <meta name="description" content="ProX Hiring is a professional manpower and recruitment consultancy based in Mumbai, India." />
+  <meta name="keywords" content="manpower consultancy, recruitment agency, staffing solutions, hiring consultancy, ProX Hiring" />
+
+  <style>
+    :root {
+      --blue: #0b5fa5;
+      --green: #2f9e44;
+      --dark: #2e2e2e;
+      --light: #f7f9fc;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--light);
+      color: var(--dark);
+    }
+
+    /* HEADER */
+    header {
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .brand img {
+      height: 70px;
+      max-width: 180px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .brand-text strong {
+      font-size: 22px;
+      color: var(--blue);
+    }
+
+    .brand-text span {
+      font-size: 13px;
+      color: #666;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      color: var(--dark);
+    }
+
+    nav a:hover {
+      color: var(--blue);
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(120deg, var(--blue), var(--green));
+      color: white;
+      padding: 90px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 750px;
+      margin: auto;
+    }
+
+    section {
+      padding: 60px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--blue);
+      margin-bottom: 20px;
+    }
+
+    /* CARDS */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    /* CONTACT */
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      background: var(--blue);
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 30px;
+    }
+
+    footer span {
+      color: var(--green);
+    }
+
+    /* WHATSAPP */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 18px;
+      border-radius: 50%;
+      font-size: 22px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="brand">
+    <img src="logo.png" alt="ProX Hiring Logo">
+    <div class="brand-text">
+      <strong>ProX Hiring</strong><br>
+      <span>Manpower & Recruitment Consultancy</span>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#industries">Industries</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>About ProX Hiring</h1>
+  <p>We deliver reliable manpower and recruitment solutions that help organizations grow with the right talent.</p>
+</section>
+
+<section id="about">
+  <h2>Who We Are</h2>
+  <p>
+    ProX Hiring is a Mumbai-based manpower solutions and recruitment consultancy committed to connecting skilled professionals with organizations across industries.
+    We focus on quality hiring, transparency, and long-term partnerships.
+  </p>
+</section>
+
+<section>
+  <h2>Why Choose ProX Hiring</h2>
+  <div class="grid">
+    <div class="card"><h3>Industry Expertise</h3><p>Strong understanding of workforce needs and hiring trends.</p></div>
+    <div class="card"><h3>Customized Hiring</h3><p>Tailored recruitment strategies for every client.</p></div>
+    <div class="card"><h3>Fast Turnaround</h3><p>Efficient processes to reduce time-to-hire.</p></div>
+    <div class="card"><h3>Trusted Partner</h3><p>Focused on long-term value and relationships.</p></div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card"><h3>Manpower Solutions</h3><p>Skilled and unskilled workforce supply.</p></div>
+    <div class="card"><h3>Permanent Recruitment</h3><p>End-to-end hiring solutions.</p></div>
+    <div class="card"><h3>Contract Staffing</h3><p>Flexible staffing for projects and contracts.</p></div>
+  </div>
+</section>
+
+<section id="industries">
+  <h2>Industries We Serve</h2>
+  <div class="grid">
+    <div class="card">IT & Technology</div>
+    <div class="card">Manufacturing</div>
+    <div class="card">Healthcare</div>
+    <div class="card">Retail & Logistics</div>
+  </div>
+</section>
+
+<section id="contact">
+  <p><strong>📞 9594959465 &nbsp; | &nbsp; 📍 Mumbai, India</strong></p>
+  <h2>Contact Us</h2>
+  <form action="https://formspree.io/f/xxxxxx" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Requirement" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p><strong>ProX Hiring</strong></p>
+  <p>📞 9594959465 | 📍 Mumbai, India</p>
+  <p>© 2024 <span>ProX Hiring</span>. All Rights Reserved.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/9594959465" target="_blank">💬</a>
+
+</body>
+</html>
