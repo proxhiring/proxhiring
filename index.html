@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ProX Hiring | Manpower & Recruitment Consultancy</title>
+  <meta name="description" content="ProX Hiring is a professional manpower and recruitment consultancy providing staffing, hiring and workforce solutions across industries." />
+  <meta name="keywords" content="manpower consultancy, recruitment agency, staffing solutions, hiring consultancy, ProX Hiring" />
+  <meta name="author" content="ProX Hiring" />
   <style>
     :root {
       --blue: #0b5fa5;
@@ -57,6 +60,33 @@
       text-align: center;
     }
     footer span { color: var(--green); }
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 18px;
+      border-radius: 50%;
+      font-size: 22px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    form button {
+      background: var(--blue);
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -103,12 +133,23 @@
 
 <section id="contact">
   <h2>Contact Us</h2>
-  <p>Email: info.proxhiring@gmail.com<br />Phone: +91-9594 9594 65</p>
+  <form action="https://formspree.io/f/xxxxxx" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Requirement" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<section id="careers">
+  <h2>Careers / Submit Resume</h2>
+  <p>Email your resume to <strong>careers@proxhiring.com</strong></p>
 </section>
 
 <footer>
   <p>© 2026 <span>ProX Hiring</span>. All Rights Reserved.</p>
 </footer>
 
+<a class="whatsapp" href="https://wa.me/9594959465" target="_blank">💬</a>
 </body>
 </html>
