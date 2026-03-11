@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-<title>ProX Hiring | Recruitment & Talent Advisory</title>
+<title>ProX Hiring | Recruitment Consultancy</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,62 +12,104 @@
 body{
 font-family:Arial;
 margin:0;
-background:#f5f7fb;
+background:#f4f8fb;
 }
 
 header{
-background:#0b2c5c;
-color:white;
-padding:25px;
-text-align:center;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:15px 40px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-nav{
-background:#134c9b;
-padding:12px;
-text-align:center;
+header img{
+height:60px;
 }
 
 nav a{
-color:white;
 margin:15px;
 text-decoration:none;
+color:#003c8f;
 font-weight:bold;
 }
 
-section{
-padding:50px;
+.hero{
+height:500px;
+background:url('hero.jpg') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
 }
 
-.hero{
-background:#e8eefc;
+.hero h1{
+font-size:50px;
+background:rgba(0,0,0,0.5);
+padding:20px;
+}
+
+.section{
+padding:70px;
 text-align:center;
-padding:80px;
 }
 
 .services{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:20px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
 }
 
 .card{
 background:white;
-padding:25px;
+padding:30px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-footer{
-background:#0b2c5c;
-color:white;
-text-align:center;
-padding:25px;
+.about{
+display:flex;
+gap:40px;
+align-items:center;
 }
 
-.qr{
+.about img{
+width:45%;
+border-radius:10px;
+}
+
+.about-text{
+width:55%;
+}
+
+.process{
+background:#eaf6ff;
+}
+
+.process ol{
+max-width:600px;
+margin:auto;
+text-align:left;
+}
+
+.contact{
+background:#003c8f;
+color:white;
+}
+
+.qr img{
+margin-top:20px;
+width:150px;
+}
+
+footer{
+background:#002f6c;
+color:white;
+padding:20px;
 text-align:center;
-margin-top:30px;
 }
 
 </style>
@@ -77,57 +120,47 @@ margin-top:30px;
 
 <header>
 
-<h1>ProX Hiring</h1>
-<p>Where Hiring Meets Excellence</p>
-
-</header>
+<img src="logo.png">
 
 <nav>
 
+<a href="#">Home</a>
 <a href="#about">About</a>
 <a href="#services">Services</a>
-<a href="#industries">Industries</a>
 <a href="#process">Process</a>
 <a href="#contact">Contact</a>
 
 </nav>
 
-<section class="hero">
+</header>
 
-<h2>Recruitment & Talent Advisory</h2>
+<div class="hero">
+
+<h1>Where Hiring Meets Excellence</h1>
+
+</div>
+
+<section class="section about" id="about">
+
+<img src="recruitment.jpg">
+
+<div class="about-text">
+
+<h2>About ProX Hiring</h2>
 
 <p>
-ProX Hiring is a modern recruitment firm connecting talented professionals with the right organizations while helping companies build strong, future-ready teams.
+ProX Hiring Services is a recruitment consultancy helping companies find the right talent and professionals discover the right opportunities.
 </p>
+
+<p>
+We specialize in ethical hiring practices, structured recruitment processes, and long-term talent partnerships.
+</p>
+
+</div>
 
 </section>
 
-<section id="about">
-
-<h2>About Us</h2>
-
-<p>
-ProX Hiring Services is a recruitment and talent advisory firm backed by FundX Investor & Holding. We focus on ethical hiring practices, professional transparency, and long-term talent partnerships.
-</p>
-
-<h3>Vision</h3>
-
-<p>
-To become a trusted and future-focused talent solutions brand that empowers careers and enables organizations to grow through the right people.
-</p>
-
-<h3>Mission</h3>
-
-<ul>
-<li>Deliver ethical recruitment services</li>
-<li>Build strong high-performance teams</li>
-<li>Guide professionals toward meaningful careers</li>
-<li>Operate with transparency and accountability</li>
-</ul>
-
-</section>
-
-<section id="services">
+<section class="section" id="services">
 
 <h2>Our Services</h2>
 
@@ -137,71 +170,55 @@ To become a trusted and future-focused talent solutions brand that empowers care
 
 <div class="card">Permanent Hiring</div>
 
-<div class="card">Contract Hiring</div>
+<div class="card">Contract Staffing</div>
 
 <div class="card">Executive Search</div>
 
 <div class="card">Candidate Screening</div>
 
-<div class="card">Employer Branding Support</div>
+<div class="card">Employer Branding</div>
 
 </div>
 
 </section>
 
-<section id="industries">
+<section class="section process" id="process">
 
-<h2>Industries We Serve</h2>
-
-<ul>
-
-<li>Information Technology</li>
-<li>Healthcare & Life Sciences</li>
-<li>BFSI (Banking, Finance & Insurance)</li>
-<li>Sales & Operations</li>
-<li>BPO / KPO</li>
-
-</ul>
-
-</section>
-
-<section id="process">
-
-<h2>Hiring Process</h2>
+<h2>Our Hiring Process</h2>
 
 <ol>
 
-<li>Requirement Analysis</li>
+<li>Understanding Client Requirements</li>
 
 <li>Talent Sourcing</li>
 
-<li>Candidate Screening</li>
+<li>Screening & Shortlisting</li>
 
 <li>Interview Coordination</li>
 
 <li>Offer & Placement</li>
 
-<li>Post-Placement Support</li>
+<li>Post Placement Support</li>
 
 </ol>
 
 </section>
 
-<section id="contact">
+<section class="section contact" id="contact">
 
 <h2>Contact Us</h2>
 
 <p>Email: info.proxhiring@gmail.com</p>
 
-<p>Phone: +91 9594 9594 65</p>
+<p>Phone: +91 9594959465</p>
 
-<p>Location: Mumbai, India</p>
+<p>Mumbai, India</p>
 
 <div class="qr">
 
-<h3>Connect With Us</h3>
+<h3>Follow Us</h3>
 
-<img src="qr.png" width="200">
+<img src="qr.png">
 
 </div>
 
@@ -209,7 +226,7 @@ To become a trusted and future-focused talent solutions brand that empowers care
 
 <footer>
 
-<p>© 2026 ProX Hiring</p>
+© 2026 ProX Hiring
 
 </footer>
 
